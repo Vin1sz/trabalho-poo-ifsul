@@ -29,7 +29,7 @@ public class GerenciadorJogos {
                     String plataforma = scanner.nextLine();
                     System.out.println("Digite o desenvolvedor: ");
                     String desenvolvedor = scanner.nextLine();
-                    System.out.println("Digite o gênero: ");
+                    System.out.println("Digite o genêro: ");
                     String genero = scanner.nextLine();
                     System.out.println("Digite a data de lançamento: ");
                     String dataLancamento = scanner.nextLine();
@@ -53,7 +53,7 @@ public class GerenciadorJogos {
                     jogoEditar.setPlataforma(scanner.nextLine());
                     System.out.println("Digite o desenvolvedor: ");
                     jogoEditar.setDesenvolvedor(scanner.nextLine());
-                    System.out.println("Digite o gênero: ");
+                    System.out.println("Digite o genêro: ");
                     jogoEditar.setGenero(scanner.nextLine());
                     System.out.println("Digite a data de lançamento: ");
                     jogoEditar.setDataLancamento(scanner.nextLine());
@@ -79,7 +79,7 @@ public class GerenciadorJogos {
                         System.out.println("Titulo: " + jogoListado.getTitulo());
                         System.out.println("Plataforma: " + jogoListado.getPlataforma());
                         System.out.println("Desenvolvedor: " + jogoListado.getDesenvolvedor());
-                        System.out.println("Gênero: " + jogoListado.getGenero());
+                        System.out.println("Genêro: " + jogoListado.getGenero());
                         System.out.println("Data de lançamento: " + jogoListado.getDataLancamento());
                         System.out.println("Descrição: " + jogoListado.getDescricao());
                         System.out.println("------------------------------------");
