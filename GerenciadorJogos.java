@@ -46,6 +46,7 @@ public class GerenciadorJogos {
                     System.out.println("Digite o id do jogo a ser editado: ");
                     int id = scanner.nextInt();
                     Games jogoEditar = jogosList.get(id);
+                    scanner.nextLine();
                     System.out.println("Digite o titulo: ");
                     jogoEditar.setTitulo(scanner.nextLine());
                     System.out.println("Digite a plataforma: ");
